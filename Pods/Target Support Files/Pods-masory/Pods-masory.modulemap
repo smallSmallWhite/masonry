@@ -1,0 +1,6 @@
+framework module Pods_masory {
+  umbrella header "Pods-masory-umbrella.h"
+
+  export *
+  module * { export * }
+}

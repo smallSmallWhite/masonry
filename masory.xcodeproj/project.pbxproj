@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D54A701E46110000829AA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D54A6F1E46110000829AA3 /* main.m */; };
+		84D54A731E46110000829AA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D54A721E46110000829AA3 /* AppDelegate.m */; };
+		84D54A761E46110000829AA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D54A751E46110000829AA3 /* ViewController.m */; };
+		84D54A791E46110000829AA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D54A771E46110000829AA3 /* Main.storyboard */; };
+		84D54A7B1E46110000829AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D54A7A1E46110000829AA3 /* Assets.xcassets */; };
+		84D54A7E1E46110000829AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D54A7C1E46110000829AA3 /* LaunchScreen.storyboard */; };
+		84D54A891E46110000829AA3 /* masoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D54A881E46110000829AA3 /* masoryTests.m */; };
+		84D54A941E46110000829AA3 /* masoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D54A931E46110000829AA3 /* masoryUITests.m */; };
+		A59C539902109F7C97F21F13 /* Pods_masory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E4762B0E846BD2837F96DAF /* Pods_masory.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D54A851E46110000829AA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D54A631E46110000829AA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D54A6A1E46110000829AA3;
+			remoteInfo = masory;
+		};
+		84D54A901E46110000829AA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D54A631E46110000829AA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D54A6A1E46110000829AA3;
+			remoteInfo = masory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17E98DA78C6A3760003C7A96 /* Pods-masory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-masory.release.xcconfig"; path = "Pods/Target Support Files/Pods-masory/Pods-masory.release.xcconfig"; sourceTree = "<group>"; };
+		44E699361684856DD09D4693 /* Pods-masory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-masory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-masory/Pods-masory.debug.xcconfig"; sourceTree = "<group>"; };
+		5E4762B0E846BD2837F96DAF /* Pods_masory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_masory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D54A6B1E46110000829AA3 /* masory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = masory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D54A6F1E46110000829AA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D54A711E46110000829AA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84D54A721E46110000829AA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84D54A741E46110000829AA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84D54A751E46110000829AA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84D54A781E46110000829AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D54A7A1E46110000829AA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D54A7D1E46110000829AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D54A7F1E46110000829AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D54A841E46110000829AA3 /* masoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = masoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D54A881E46110000829AA3 /* masoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = masoryTests.m; sourceTree = "<group>"; };
+		84D54A8A1E46110000829AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D54A8F1E46110000829AA3 /* masoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = masoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D54A931E46110000829AA3 /* masoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = masoryUITests.m; sourceTree = "<group>"; };
+		84D54A951E46110000829AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D54A681E46110000829AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A59C539902109F7C97F21F13 /* Pods_masory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D54A811E46110000829AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D54A8C1E46110000829AA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A7FADD292DA097044127D1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44E699361684856DD09D4693 /* Pods-masory.debug.xcconfig */,
+				17E98DA78C6A3760003C7A96 /* Pods-masory.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6560B6A10BD621A219CC0178 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E4762B0E846BD2837F96DAF /* Pods_masory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D54A621E46110000829AA3 = {
+			isa = PBXGroup;
+			children = (
+				84D54A6D1E46110000829AA3 /* masory */,
+				84D54A871E46110000829AA3 /* masoryTests */,
+				84D54A921E46110000829AA3 /* masoryUITests */,
+				84D54A6C1E46110000829AA3 /* Products */,
+				0A7FADD292DA097044127D1B /* Pods */,
+				6560B6A10BD621A219CC0178 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84D54A6C1E46110000829AA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D54A6B1E46110000829AA3 /* masory.app */,
+				84D54A841E46110000829AA3 /* masoryTests.xctest */,
+				84D54A8F1E46110000829AA3 /* masoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D54A6D1E46110000829AA3 /* masory */ = {
+			isa = PBXGroup;
+			children = (
+				84D54A711E46110000829AA3 /* AppDelegate.h */,
+				84D54A721E46110000829AA3 /* AppDelegate.m */,
+				84D54A741E46110000829AA3 /* ViewController.h */,
+				84D54A751E46110000829AA3 /* ViewController.m */,
+				84D54A771E46110000829AA3 /* Main.storyboard */,
+				84D54A7A1E46110000829AA3 /* Assets.xcassets */,
+				84D54A7C1E46110000829AA3 /* LaunchScreen.storyboard */,
+				84D54A7F1E46110000829AA3 /* Info.plist */,
+				84D54A6E1E46110000829AA3 /* Supporting Files */,
+			);
+			path = masory;
+			sourceTree = "<group>";
+		};
+		84D54A6E1E46110000829AA3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D54A6F1E46110000829AA3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D54A871E46110000829AA3 /* masoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D54A881E46110000829AA3 /* masoryTests.m */,
+				84D54A8A1E46110000829AA3 /* Info.plist */,
+			);
+			path = masoryTests;
+			sourceTree = "<group>";
+		};
+		84D54A921E46110000829AA3 /* masoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D54A931E46110000829AA3 /* masoryUITests.m */,
+				84D54A951E46110000829AA3 /* Info.plist */,
+			);
+			path = masoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D54A6A1E46110000829AA3 /* masory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D54A981E46110000829AA3 /* Build configuration list for PBXNativeTarget "masory" */;
+			buildPhases = (
+				2927E93560262C7CF524BCDE /* [CP] Check Pods Manifest.lock */,
+				84D54A671E46110000829AA3 /* Sources */,
+				84D54A681E46110000829AA3 /* Frameworks */,
+				84D54A691E46110000829AA3 /* Resources */,
+				79F5C5023460DBE7837AA340 /* [CP] Embed Pods Frameworks */,
+				67DF766CC88E99C5270F0BB5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = masory;
+			productName = masory;
+			productReference = 84D54A6B1E46110000829AA3 /* masory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D54A831E46110000829AA3 /* masoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D54A9B1E46110000829AA3 /* Build configuration list for PBXNativeTarget "masoryTests" */;
+			buildPhases = (
+				84D54A801E46110000829AA3 /* Sources */,
+				84D54A811E46110000829AA3 /* Frameworks */,
+				84D54A821E46110000829AA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D54A861E46110000829AA3 /* PBXTargetDependency */,
+			);
+			name = masoryTests;
+			productName = masoryTests;
+			productReference = 84D54A841E46110000829AA3 /* masoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D54A8E1E46110000829AA3 /* masoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D54A9E1E46110000829AA3 /* Build configuration list for PBXNativeTarget "masoryUITests" */;
+			buildPhases = (
+				84D54A8B1E46110000829AA3 /* Sources */,
+				84D54A8C1E46110000829AA3 /* Frameworks */,
+				84D54A8D1E46110000829AA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D54A911E46110000829AA3 /* PBXTargetDependency */,
+			);
+			name = masoryUITests;
+			productName = masoryUITests;
+			productReference = 84D54A8F1E46110000829AA3 /* masoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D54A631E46110000829AA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84D54A6A1E46110000829AA3 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					84D54A831E46110000829AA3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 84D54A6A1E46110000829AA3;
+					};
+					84D54A8E1E46110000829AA3 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 84D54A6A1E46110000829AA3;
+					};
+				};
+			};
+			buildConfigurationList = 84D54A661E46110000829AA3 /* Build configuration list for PBXProject "masory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D54A621E46110000829AA3;
+			productRefGroup = 84D54A6C1E46110000829AA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D54A6A1E46110000829AA3 /* masory */,
+				84D54A831E46110000829AA3 /* masoryTests */,
+				84D54A8E1E46110000829AA3 /* masoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D54A691E46110000829AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D54A7E1E46110000829AA3 /* LaunchScreen.storyboard in Resources */,
+				84D54A7B1E46110000829AA3 /* Assets.xcassets in Resources */,
+				84D54A791E46110000829AA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D54A821E46110000829AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D54A8D1E46110000829AA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2927E93560262C7CF524BCDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		67DF766CC88E99C5270F0BB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-masory/Pods-masory-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79F5C5023460DBE7837AA340 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-masory/Pods-masory-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D54A671E46110000829AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D54A761E46110000829AA3 /* ViewController.m in Sources */,
+				84D54A731E46110000829AA3 /* AppDelegate.m in Sources */,
+				84D54A701E46110000829AA3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D54A801E46110000829AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D54A891E46110000829AA3 /* masoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D54A8B1E46110000829AA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D54A941E46110000829AA3 /* masoryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D54A861E46110000829AA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D54A6A1E46110000829AA3 /* masory */;
+			targetProxy = 84D54A851E46110000829AA3 /* PBXContainerItemProxy */;
+		};
+		84D54A911E46110000829AA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D54A6A1E46110000829AA3 /* masory */;
+			targetProxy = 84D54A901E46110000829AA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D54A771E46110000829AA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D54A781E46110000829AA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D54A7C1E46110000829AA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D54A7D1E46110000829AA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D54A961E46110000829AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D54A971E46110000829AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D54A991E46110000829AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44E699361684856DD09D4693 /* Pods-masory.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = masory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mapeng.masory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84D54A9A1E46110000829AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E98DA78C6A3760003C7A96 /* Pods-masory.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = masory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mapeng.masory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		84D54A9C1E46110000829AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = masoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mapeng.masoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/masory.app/masory";
+			};
+			name = Debug;
+		};
+		84D54A9D1E46110000829AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = masoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mapeng.masoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/masory.app/masory";
+			};
+			name = Release;
+		};
+		84D54A9F1E46110000829AA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = masoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mapeng.masoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = masory;
+			};
+			name = Debug;
+		};
+		84D54AA01E46110000829AA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = masoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mapeng.masoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = masory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D54A661E46110000829AA3 /* Build configuration list for PBXProject "masory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D54A961E46110000829AA3 /* Debug */,
+				84D54A971E46110000829AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D54A981E46110000829AA3 /* Build configuration list for PBXNativeTarget "masory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D54A991E46110000829AA3 /* Debug */,
+				84D54A9A1E46110000829AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84D54A9B1E46110000829AA3 /* Build configuration list for PBXNativeTarget "masoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D54A9C1E46110000829AA3 /* Debug */,
+				84D54A9D1E46110000829AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84D54A9E1E46110000829AA3 /* Build configuration list for PBXNativeTarget "masoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D54A9F1E46110000829AA3 /* Debug */,
+				84D54AA01E46110000829AA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D54A631E46110000829AA3 /* Project object */;
+}
